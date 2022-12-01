@@ -1,0 +1,89 @@
+.container {
+  max-width: 600px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+body {
+  background: linear-gradient(#f7f6f5, #dceaed);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #88a88b;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  background: #88a88b;
+  color: white;
+  font-size: medium;
+  border: 1px solid #88a88b;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 200ms ease-in-out;
+}
+
+.shop-now {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #88a88b;
+}
+
+p {
+  text-align: center;
+  line-height: 1.7;
+  padding-top: 20px;
+}
+
+.learn-more {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  color: #88a88b;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.author {
+  text-decoration: none;
+  font-size: 12px;
+}
+.author-link {
+  color: #88a88b;
+  text-decoration: none;
+}
+
+.author-link:hover {
+  text-decoration: underline;
+}
